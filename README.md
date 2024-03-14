@@ -151,7 +151,7 @@ output:
 [+] Version 0.2.230430 Satoshi Quest, developed by AlbertoBSD
 [+] Mode address
 [+] Setting search for btc adddress
-[+] N = 0x100000000
+[+] N = 0x100000000=--/;
 [+] Range
 [+] -- from : 0x1
 [+] -- to   : 0xffffffff
@@ -822,7 +822,7 @@ I already tested it with some **8 GB ** used with `-k 512` and I get **~46 Petak
 
 with **8** threads
 
-`./keyhunt -m bsgs -f tests/125.txt -b 125 -R -k 512 -q -t 8 -s 10 -S`
+`
 
 Output:
 
