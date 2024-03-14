@@ -1,3 +1,10 @@
 {
-    "GitHooks.hooksDirectory": "/workspaces/keyhunt/.git/hooks"
+    "GitHooks.hooksDirectory": "/workspaces/keyhunt/.git/hooks",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/workspaces/keyhunt",
+            "binaryPath": "/workspaces/keyhunt/keyhunt",
+            "binaryArgs": []
+        }
+    ]
 }
