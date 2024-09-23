@@ -1,0 +1,3947 @@
+{
+    "id": "57820df9-1fc5-4674-86ca-9ee999534ca8",
+    "settings": {
+        "app_icon": "Main",
+        "balance_auto_hide": false,
+        "balance_primary_value": "coin",
+        "currency": "USD",
+        "btc_modes": [
+            {
+                "blockchain_type_id": "bitcoin",
+                "restore_mode": "blockchair",
+                "sort_mode": "shuffle"
+            },
+            {
+                "blockchain_type_id": "bitcoin-cash",
+                "restore_mode": "blockchair",
+                "sort_mode": "shuffle"
+            },
+            {
+                "blockchain_type_id": "dash",
+                "restore_mode": "hybrid",
+                "sort_mode": "shuffle"
+            },
+            {
+                "blockchain_type_id": "ecash",
+                "restore_mode": "hybrid",
+                "sort_mode": "shuffle"
+            },
+            {
+                "blockchain_type_id": "litecoin",
+                "restore_mode": "hybrid",
+                "sort_mode": "shuffle"
+            }
+        ],
+        "indicators": {
+            "ma": [
+                {
+                    "enabled": true,
+                    "period": 9,
+                    "type": "ema"
+                },
+                {
+                    "enabled": true,
+                    "period": 25,
+                    "type": "ema"
+                },
+                {
+                    "enabled": true,
+                    "period": 50,
+                    "type": "ema"
+                }
+            ],
+            "macd": [
+                {
+                    "enabled": false,
+                    "fast": 12,
+                    "signal": 9,
+                    "slow": 26
+                }
+            ],
+            "rsi": [
+                {
+                    "enabled": true,
+                    "period": 12
+                }
+            ]
+        },
+        "indicators_shown": false,
+        "conversion_token_query_id": "bitcoin|derived:bip84",
+        "theme_mode": "system",
+        "evm_sync_sources": {
+            "custom": [
+                {
+                    "blockchain_type_id": "optimistic-ethereum",
+                    "url": "https://goerli.infura.io/v3/1143b8e773b046b09ca2ef0bc9fe7f40"
+                }
+            ],
+            "selected": [
+                {
+                    "blockchain_type_id": "arbitrum-one",
+                    "url": "https://arb1.arbitrum.io/rpc"
+                },
+                {
+                    "blockchain_type_id": "avalanche",
+                    "url": "https://api.avax.network/ext/bc/C/rpc"
+                },
+                {
+                    "blockchain_type_id": "binance-smart-chain",
+                    "url": "https://bsc-dataseed.binance.org/"
+                },
+                {
+                    "blockchain_type_id": "ethereum",
+                    "url": "https://mainnet.infura.io/ws/v3/5bf760228fcd47bb8d277dba49b7b369"
+                },
+                {
+                    "blockchain_type_id": "fantom",
+                    "url": "https://rpc.fantom.network"
+                },
+                {
+                    "blockchain_type_id": "gnosis",
+                    "url": "https://rpc.gnosischain.com"
+                },
+                {
+                    "blockchain_type_id": "optimistic-ethereum",
+                    "url": "https://mainnet.optimism.io"
+                },
+                {
+                    "blockchain_type_id": "polygon-pos",
+                    "url": "https://polygon-rpc.com"
+                }
+            ]
+        },
+        "language": "en",
+        "launch_screen": "auto",
+        "lock_time": false,
+        "show_market": true,
+        "solana_sync_source": {
+            "blockchain_type_id": "solana",
+            "name": "TritonOne API"
+        },
+        "swap_providers": [
+            {
+                "blockchain_type_id": "ethereum",
+                "provider": "oneinch"
+            },
+            {
+                "blockchain_type_id": "binance-smart-chain",
+                "provider": "oneinch"
+            },
+            {
+                "blockchain_type_id": "polygon-pos",
+                "provider": "oneinch"
+            },
+            {
+                "blockchain_type_id": "avalanche",
+                "provider": "oneinch"
+            },
+            {
+                "blockchain_type_id": "optimistic-ethereum",
+                "provider": "oneinch"
+            },
+            {
+                "blockchain_type_id": "arbitrum-one",
+                "provider": "oneinch"
+            },
+            {
+                "blockchain_type_id": "gnosis",
+                "provider": "oneinch"
+            },
+            {
+                "blockchain_type_id": "fantom",
+                "provider": "oneinch"
+            }
+        ]
+    },
+    "timestamp": 1705876739,
+    "version": 2,
+    "wallets": [
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "e9372d39d2e5ecfaf1faa50de99b7228"
+                    },
+                    "ciphertext": "PgxsrrUFJcKUqXA+/nGKC2Vpqi5q33LwnhEqPL5k7ts=",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "e78633118e85254d99c9372b3eb87c1a241b121f5c2add6daf40e36debfde6c7"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "PERP",
+                        "coin_name": "Perpetual Protocol",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|eip20:0x9e1028f5f1d5ede59748ffcee5532509976840e0"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "4cb5a465aec5ca51318ee4d9c869ff85a0755fcfcb0504a386e672d8c6042983cb0b647e4200d961d0439eed9ab92b167253c530308f6666d5091dcd2ef55ad0",
+                "manual_backup": true,
+                "timestamp": 1705876727,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 002"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "9175ab0d6697f6b06e043930f0572c1a"
+                    },
+                    "ciphertext": "1XsDgVSoiEOfk5opiUxSog9NVx2C4P9RwlHnrAbWBbTC",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "7fa0a6291b92726503dbd9a44e91f4dc7beb8c75b666622abea5c512620151aa"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "MEME",
+                        "coin_name": "Memecoin",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|eip20:0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74"
+                    },
+                    {
+                        "coin_code": "USDT",
+                        "coin_name": "Tether",
+                        "decimals": 6,
+                        "token_query_id": "ethereum|eip20:0xdac17f958d2ee523a2206206994597c13d831ec7"
+                    },
+                    {
+                        "coin_code": "BONDLY",
+                        "coin_name": "Bondly",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|eip20:0x91dfbee3965baaee32784c2d546b7a0c62f268c9"
+                    },
+                    {
+                        "coin_code": "LUNA",
+                        "coin_name": "Wrapped Terra",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|eip20:0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9"
+                    },
+                    {
+                        "coin_code": "USDC",
+                        "coin_name": "TestUSDCoin",
+                        "decimals": 6,
+                        "token_query_id": "polygon-pos|eip20:0x2263b660e3932c8d5b871eea6a41a672a0e447dd"
+                    },
+                    {
+                        "coin_code": "ELON",
+                        "coin_name": "Dogelon Mars",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|eip20:0xe0339c80ffde91f3e20494df88d4206d86024cdf"
+                    },
+                    {
+                        "coin_code": "CAKE",
+                        "coin_name": "PancakeSwap",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                    },
+                    {
+                        "coin_code": "BTCB",
+                        "coin_name": "Binance Bitcoin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c"
+                    },
+                    {
+                        "coin_code": "BABYDOGE",
+                        "coin_name": "Baby Doge Coin",
+                        "decimals": 9,
+                        "token_query_id": "binance-smart-chain|eip20:0xc748673057861a797275cd8a068abb95a902e8de"
+                    },
+                    {
+                        "coin_code": "PLASTIK",
+                        "coin_name": "Plastiks",
+                        "decimals": 9,
+                        "token_query_id": "binance-smart-chain|eip20:0x2764be4756fec8de911d8d37efe4ae8aff178254"
+                    },
+                    {
+                        "coin_code": "XRP",
+                        "coin_name": "Binance-Peg XRP",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe"
+                    },
+                    {
+                        "coin_code": "PVU",
+                        "coin_name": "Plant vs Undead Token",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0x31471e0791fcdbe82fbf4c44943255e923f1b794"
+                    },
+                    {
+                        "coin_code": "PET",
+                        "coin_name": "Battle Pets",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0x4d4e595d643dc61ea7fcbf12e4b1aaa39f9975b8"
+                    },
+                    {
+                        "coin_code": "WSG",
+                        "coin_name": "Wall Street Games",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0xa58950f05fea2277d2608748412bf9f802ea4901"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "2e9439adcefded197fcf82f6c43d44f92995503c00e441329127713431b629622d2eda775ef196a3498c05e3ff537b0d633976eb99863d14e80c60c6cb33a0d0",
+                "manual_backup": true,
+                "timestamp": 1705876727,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 004"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "35ff878338db362133d42eceed16d200"
+                    },
+                    "ciphertext": "CUk40CV23W4iAgya+G2rODA/SyyNNQW3XQmZ59JICxhL",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "8ef9bc31fb89c5b2432f1d923a1220e3e1f2fb7057e81b741d6206d3c2220a57"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "USDT",
+                        "coin_name": "Tether",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0x55d398326f99059ff775485246999027b3197955"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "f468d94e7f2d51d1843568bd0724c3684a816b95ee74d3210ff58cf288740dd86a12661e4dc4aedf617555a5e30363103dd6459cbdc710d5f0969e07ef9d9dd1",
+                "manual_backup": true,
+                "timestamp": 1705876728,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 009"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "c14953017d64f188f552bcddeef5cebb"
+                    },
+                    "ciphertext": "hY4gJ0BRdOPaL17tsLxybFI8KkKIE1/KNtrWZp6mfkQ=",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "731aadb0daa5cee0a41c561332731a409bd0617e6ff94a4ee2be677891ea9914"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "MNE",
+                        "coin_name": "Minereum",
+                        "decimals": 2,
+                        "token_query_id": "ethereum|eip20:0xb723606d20c2f19f6054169bbeacd89d72db475d"
+                    },
+                    {
+                        "coin_code": "DFA",
+                        "coin_name": "DeFine",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|eip20:0x62959c699a52ec647622c91e79ce73344e4099f5"
+                    },
+                    {
+                        "coin_code": "FEG",
+                        "coin_name": "FEG Token",
+                        "decimals": 9,
+                        "token_query_id": "ethereum|eip20:0x389999216860ab8e0175387a0c90e5c52522c945"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "41ebf5f29f5fd6a56acc5144811b90af3340c2b5e2e2a384aa46eff61da2cb361d32fcc6a2e66f62ff9bca6990d7a164e8dcaf7c9d5dd417db424aa990b784fc",
+                "manual_backup": true,
+                "timestamp": 1705876728,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 011"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "7784bd978a694a665ea3f0cf0a036446"
+                    },
+                    "ciphertext": "YCoEEXstL0w2Rfr+c2XHU/N0bfEQ9sLEzFHNEB+iTjGI",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "de564b37246b7e6935d352a97e2cc79ff191d1b4b72fc553233713bd60dac4b9"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "PUSH",
+                        "coin_name": "Ethereum Push Notification Service - EPNS",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|eip20:0xf418588522d5dd018b425e472991e52ebbeeeeee"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "b626de599c600e64bd1fa744c3322ec66405130a6ea577093981e4b1f6f61b5b176d10853750a5ca8cfcb73624a466dacb1c1a14b252befe08e07599ec7260b3",
+                "manual_backup": true,
+                "timestamp": 1705876729,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 013"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "0bb8a4eb2756ab2aa90bbd05de0f3379"
+                    },
+                    "ciphertext": "K7woAqOC31s5nzPnWsdvHE64hIgPw//oocsvGvuyppkw",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "3d6effe2af90264b93b96faa8d04af750338a2084d2d6e81e06f3a8ef3a7e7d6"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "USDT",
+                        "coin_name": "Tether",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0x55d398326f99059ff775485246999027b3197955"
+                    },
+                    {
+                        "coin_code": "GAS",
+                        "coin_name": "Gas DAO",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|eip20:0x6bba316c48b49bd1eac44573c5c871ff02958469"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "a416216f7120048933a1228acf6a64477084a6103b83d37033cd67df09955618e38a0726d025d76de0e3bc3ceaa5ab0481bafd947f2eaadf87f3ed3f2a8041c9",
+                "manual_backup": true,
+                "timestamp": 1705876729,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 015"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "4115ebedf05ce312490b787e5db27775"
+                    },
+                    "ciphertext": "cQ==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "0a540a32b18bfff6afdc07551c83d8c2d62faa2c9dbb36a67ca5bdd3ecae276d"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "e97b9cc0c1e22c66bff31f6c457c2b95b9f9af955c8a098e043734df7439031fd1c6748a139d99077eb2db5f3d98a0e9d05b6606e3d4010ec107a52cd7e43359",
+                "manual_backup": true,
+                "timestamp": 1705876729,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 003"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "c1bd9e0085606a77c6d2380370f5a192"
+                    },
+                    "ciphertext": "Tw==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "3fa42fef7e685f23e0bc8ae31c0d371d19831312e8dc08915b4ae002948092f4"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "MNE",
+                        "coin_name": "Minereum",
+                        "decimals": 2,
+                        "token_query_id": "ethereum|eip20:0xb723606d20c2f19f6054169bbeacd89d72db475d"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "3e47887bc818882ea1123a117180b1f762a987058502d3b372a0e62333327433eb53b5bb4d9709f2505f6df3bc7d52d183397b8ab51b658b010cc87054f915ee",
+                "manual_backup": true,
+                "timestamp": 1705876730,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 005"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "fed94921a628dab6e706e9ea1b83c6e4"
+                    },
+                    "ciphertext": "YQ==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "164a8623d6e2c93e717959692a35323d46a56570195e5ff4ae340e625c891c24"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "MNE",
+                        "coin_name": "Minereum",
+                        "decimals": 2,
+                        "token_query_id": "ethereum|eip20:0xb723606d20c2f19f6054169bbeacd89d72db475d"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "3e47887bc818882ea1123a117180b1f762a987058502d3b372a0e62333327433eb53b5bb4d9709f2505f6df3bc7d52d183397b8ab51b658b010cc87054f915ee",
+                "manual_backup": true,
+                "timestamp": 1705876730,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 026"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "5c34568f824f5e6fe05dc7602c410511"
+                    },
+                    "ciphertext": "uw==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "ce22e35aabbfb875e8b9a5f32751a2d0e398c3212f69247ea0727bddde6c0411"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "19d147676eb275f0f0125762f223719fde9958859f5400cc34e2887b64a26d96c3c4f9d5c0fbbda48f22820d4415a68a4fdb99028b3ba19778873a7125e56477",
+                "manual_backup": true,
+                "timestamp": 1705876731,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 166"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "ed9e3f0b265852ccf99048b7d532bd21"
+                    },
+                    "ciphertext": "jw==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "453827c30e4ed9b22666e1bf444f49e0fee792908760512a563ec7d844d9853c"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BUSD",
+                        "coin_name": "Binance USD",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0xe9e7cea3dedca5984780bafc599bd69add087d56"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "6b3b006aa3a86286c359a6d243d62a61e46f0c5f7d1db587faa26fbe72718eaee33f774af164e3ba790d4ae4136a25dc993d3246f7be6691fa7346d0be0f1a71",
+                "manual_backup": true,
+                "timestamp": 1705876731,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 006"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "02e3b3dd5cb1a715c2c99d70d0433b35"
+                    },
+                    "ciphertext": "Ag==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "9230dd13853c92705ce656a3dc4e9e117e090b9e3c82e7c36227dcbab14ca7c0"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "MNE",
+                        "coin_name": "Minereum",
+                        "decimals": 2,
+                        "token_query_id": "ethereum|eip20:0xb723606d20c2f19f6054169bbeacd89d72db475d"
+                    },
+                    {
+                        "coin_code": "FST",
+                        "coin_name": "Futureswap",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|eip20:0x0e192d382a36de7011f795acc4391cd302003606"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "4dab249e3ef1f27d323fea6d443dd6f2ab3655e2b4faf1078c7ad6af83a18f2efbbed88b2a63b1afff3d196f8b9707f28cfa8cc08579db5428d2a5dc1c5c9d63",
+                "manual_backup": true,
+                "timestamp": 1705876731,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 007"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "1d7d7e212309f2026d73124fb55df51f"
+                    },
+                    "ciphertext": "ZQ==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "2eb2752b3befaace03d045fd994a71cb905608be55b6e83216b72993ec39984c"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "75eb69a43e3bbcff322ec624ae7511cf3ad99df84b90d48b2665c70dff548c4857d4446c1eb04535bf54daa96e2cf5c3d5203d1fb43bbf4d40301bab95ac7772",
+                "manual_backup": true,
+                "timestamp": 1705876732,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 008"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "01f3f23ed06e359ea8221df3a4360537"
+                    },
+                    "ciphertext": "pA==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "c04e18c65bc252741b860ebb541c14192fdb8769aae8e450dc8b5a59f8ba8a84"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BUSD",
+                        "coin_name": "Binance USD",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0xe9e7cea3dedca5984780bafc599bd69add087d56"
+                    },
+                    {
+                        "coin_code": "MNE",
+                        "coin_name": "Minereum",
+                        "decimals": 2,
+                        "token_query_id": "ethereum|eip20:0xb723606d20c2f19f6054169bbeacd89d72db475d"
+                    },
+                    {
+                        "coin_code": "FST",
+                        "coin_name": "Futureswap",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|eip20:0x0e192d382a36de7011f795acc4391cd302003606"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "dc3fee1c29fe441f11008464c18d074dc987dbe02831a4e06c1c4769e4bfce5e78e50f13d786389a577afb2563e306b5d079187e4eccb962e12a5f6c16f62a2e",
+                "manual_backup": true,
+                "timestamp": 1705876732,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 010"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "13db8b94b9395db3c97f191c190b6218"
+                    },
+                    "ciphertext": "XQ==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "9ec0d88c1cdb141323022ba59a493cfc5584a5b7e941ee631c284f3bcf84c948"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "USDT",
+                        "coin_name": "Tether",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|eip20:0x55d398326f99059ff775485246999027b3197955"
+                    },
+                    {
+                        "coin_code": "MNE",
+                        "coin_name": "Minereum",
+                        "decimals": 2,
+                        "token_query_id": "ethereum|eip20:0xb723606d20c2f19f6054169bbeacd89d72db475d"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "095f3e448a55fa2c3c7049c01dcf12fb87c44477cf367993132ca74c92a27a1eaaa341c2fd5724ea449cec2728547e80edbb7e6029891c5ffd157e283ebb41e5",
+                "manual_backup": true,
+                "timestamp": 1705876733,
+                "type": "private_key",
+                "version": 2
+            },
+            "name": "Wallet 014"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "c9194c14a10749b9a3110a2e170cef06"
+                    },
+                    "ciphertext": "NWDwv8igASCujrKEVJjrWUmOYFxQxfE3/pdG2QFGIOuO35Jo+SJg2wX/oUXDEwGp2aBLNGLQ/QYmP9bxqdn3w6tmbsZZXJ76hOZYWWpBUxHmdwg=",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "4249356f041f446e0f7f1af7bc342035e6eb4e31d2abb7aac1d26904aca7b0e9"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "7bf69bf5e3a7f04902b9d145dca51f763bac8f9ba45f5068982f63d0389cf3db3a80d5b6ff0a94a74260c81c07b916bd11c8f5514a4a098f639f34baaa97d168",
+                "manual_backup": true,
+                "timestamp": 1705876733,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "consider swap"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "9e4f8e768e6076ab7669e5f9cc53a981"
+                    },
+                    "ciphertext": "UNIiBj7oxGtBxncWJEqjtgik5Gbn0fW4qMqp+7y2xprbH1eSPtLZK/lbMsY7raZ/D5XNGRSilAxaOxA5wloMAlMeX3Jb2qmZtxoG2xdT8A==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "9b9da5b4b693e98806f44906398b3f7d9abac386b592f2175297fc2f3359fa09"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "jGBP",
+                        "coin_name": "Jarvis Synthetic British Pound",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|eip20:0x767058f11800fba6a682e73a6e79ec5eb74fac8c"
+                    },
+                    {
+                        "coin_code": "AMDAI",
+                        "coin_name": "Aave Polygon DAI",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|eip20:0x27f8d03b3a2196956ed754badc28d73be8830a6e"
+                    },
+                    {
+                        "coin_code": "WETH",
+                        "coin_name": "WETH",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|eip20:0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+                    },
+                    {
+                        "coin_code": "AMWETH",
+                        "coin_name": "Aave Polygon WETH",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|eip20:0x28424507fefb6f7f8e9d3860f56504e4e5f5f390"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "286b3171de6099f5a3478550b36118705dcdb7a79ce2c40dfc615b16c202dfe280dff77b6c21dda2d73a97c5e3ae08f8db69af1fb83d0ea9acdd9dcb6bf8d832",
+                "manual_backup": true,
+                "timestamp": 1705876734,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "__legacy"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "e8b2b09149f75643e811685dda6c8a56"
+                    },
+                    "ciphertext": "bB8nf8Vk+A0o6LjcsED2DlckB3YU1vhuGh6EBi/OkXKoXWxNiGTEWwrEM5xLqw8lwZYCvv+7oeWr0/ZXL7solfaXAqzbGO/t35DczWLaZ6IG",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "ac21dc83553b5942dd40f751d148b80c7819ec79a76a27f6d38383bfe2d0ccb1"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "a2dbe2a693751efd2ce4bbc2fc8e076e202086fed21ef08bc73c2378b2ddda3ce66da47ecf19858ea99c3aa57461db25d50e01a1948686cf19c06d2aa37b8bb4",
+                "manual_backup": true,
+                "timestamp": 1705876734,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "ginger illness"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "8bc2366897c05ff75415878fb5cbfa4b"
+                    },
+                    "ciphertext": "h57QBNzI1OMnD52uY4DshB671L2KKD69Ol2A6YsBau91C46DqMREJfP5/Nmb5TDcIKzaOEgJptkFlOUVHW2CfRFCv7NIT0VguK0I+6RDF2tPTaTLYftJU2sjPaMWB9z1xsT11nxdJSTb6bSmVuUxy4BJiXI=",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "4b746b34bb387f5a4671001e3ce5abe97c4f4767e214d2ce4d0c00d4e9cd1f16"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    }
+                ],
+                "file_backup": false,
+                "id": "75297a7819f4e6030c4756dc9c1e92b4599e02548956a1fde8543fbd78233b2f2ae4500cfe088895e72bac1b793d73452f3b7966c487389f0ed84a4441e35cef",
+                "manual_backup": true,
+                "timestamp": 1705876734,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "prize rent"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "61742d016e95722278ec85bab724b261"
+                    },
+                    "ciphertext": "8J7gIfM3iJx0yNz9rgP23le+epSa3IdLq62O9B/dbCU5gXohXC71uEkAXe+oZ7rvr5HYpl6+YTgj8In3pZBN0ZzACZGH/vD7jA9evA==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "2e23cdafd57ea4ad85fb3f2cf627bde381267e63be85e14c71700b0fc9f3af87"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "9ce60706e0e3995f0ffc5796edec8278068c74688dd274ca81fd92b2d8bd2ee5716b2664b3c14820b4801897b69beed22182420e918a7e8d0d37f565edc0f3ba",
+                "manual_backup": true,
+                "timestamp": 1705876735,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "rookie hope"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "989c920fe93f5758bb6373925209fe5d"
+                    },
+                    "ciphertext": "p8Ms9QEj5cOpuV9LOVDajgsQYMH2n8v74lEIekKQGtjIQpB7R5t8KcaQibjTDg4kHKQjUAZhTl2BejxvkJ1Ugx131tuAviyD3qu4",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "e79e3b6f38327d782d1998d15cc263e48cbc50f060f865832e8d5e27d0fd4d79"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "cec20fef4cc70ee2988b470020839cbf3ae3ac03b872194df0dccd17c2d4740515113f9881f1f69ad105193da64fb9bd7426b319ba35862ea7750bb4e582aa40",
+                "manual_backup": true,
+                "timestamp": 1705876735,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "shell purity"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "31daceeab5fbfeae53c89e3f3f961b5b"
+                    },
+                    "ciphertext": "stY2nV9YZryYt6rLe3eEqBR6hMnXXg/Sxi55eFtIFUea70gK7luf3TvfkizMiTpE9+p7malDBMt+MEbk99zZQJDmqD8X47msrtYE",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "ef1e25f0d12e1b4ca0fb4462b06caa48648f54176ec9c65f9650792cc0e346f1"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "cec20fef4cc70ee2988b470020839cbf3ae3ac03b872194df0dccd17c2d4740515113f9881f1f69ad105193da64fb9bd7426b319ba35862ea7750bb4e582aa40",
+                "manual_backup": true,
+                "timestamp": 1705876736,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "shell purity"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "88254a1bb313bc8e91a06c80ea268260"
+                    },
+                    "ciphertext": "UBq2ywuGiaeObI5HMVwsZFpFOlU5f0OLOMrh21GYvNdikHcN0YYs/ksL13Pck08mH/5yiT09peGL0Uso4uCd0dgetsmJhHSlkJPTwI/RgV3Zu8vPRHnExKHJ08QRV50BA+TSIfmxlysw4kv3qTu8Iu0rdh4dLA==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "8e5b3fbc8e333d21007d7233b807798ebc54ea94f411dce341631d08a942e55f"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "bf542df1d023b38ac977a6288fb7d2a97451227b977ba4fe8e1589f4cd165c1abb77d69f4c235d3ea92d984a3e8bd4edba870bfb13b019f7e94f7733d98296b8",
+                "manual_backup": true,
+                "timestamp": 1705876736,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "monitor math"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "bcaaf3a2482ea253a1130875f3117ec8"
+                    },
+                    "ciphertext": "Uu2MdZtDcX8lvwXugog24zvasliWOrW/Dp3criWUMeUqqGPl1dzVGT5v4c6F1d5y3F860fuEsGAJ2q7/yB8AZkxfZ48vlw==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "1f44a336b8ce07948797dfbaeab33ca36e2af548e16cbfc5e996f245ab0bbf59"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "3f6bf7e06a7db6e72b20fd9d562ccf298ec0157ba9fc3b9b6f3886253672184cf388492e18dce563f8c19e98ca1237549cde82ff9134553fce054a45c61096f8",
+                "manual_backup": true,
+                "timestamp": 1705876737,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "motor any"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "01711c47be125eac65538d8c0e09ce6e"
+                    },
+                    "ciphertext": "rJk8nmcBRMGhAPZQPIjBZDmwXOczu4/z0CwNn4y4sV/sr7L9K/ZZkkMw+hvFMGUFUuNXL3I6+9ozI5NI8qlpHX9Y16GDW0+Dv898Dl85oRpt6MxCeEyvsIRHJKlyzAzBKX6j8eYY4Apu3SxSV/tslgzkojNZDQ021Q==",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "cd2049509a79dcfa239e6667c5ed7f644e5c9efa1fb668debb9d180c49f23788"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "a8e52a81f63a850a3dad69d6b79ebc1b0ab1b4e9767c128ef1f7a42cf4b84257c71a92ab4e622ab3c64086335ad1ef7ac0dd2e1ed732a78ce3cc816ab89d827e",
+                "manual_backup": true,
+                "timestamp": 1705876737,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "history foil"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "b7160c87d420ff5e66b53ddd8490614d"
+                    },
+                    "ciphertext": "ecC/mJawPMGBnxTM43Ym+nvIG286RVBlOQftbh2sAjwOxU4Ip8GmJeJUmNzSEGQcHCW2/xtNzUx6Xi6n2EmfXO4O32OzJ+y7HyXY2Vr8e6Lz65SmegbvZOglsm7iKnFZ0LAYjeOAb3sJrx0jyzmy",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "7a5a7d02f6647e135ac84a3e8d91c0f49d979448a7b65b27a44cd1acbacf931c"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "ebb0c2992bae291c397e5a0232d47d767ca67264fcc6e4d1e72eb054ad1321a69c0ca76ab59e25ce411cfddfc3e22afdcd72ebe57c538e387ad2b35ebe2cb15e",
+                "manual_backup": true,
+                "timestamp": 1705876737,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "skill fall"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "d04861d26896736c3459def90ad66395"
+                    },
+                    "ciphertext": "mfQ+F95XoeV07MQGUr1ZHnvUc/HqLqS8qR8ADHpZWrmRvREzoZFPkyO3x5bO7XQwrpEgXGNhwzIjnLCQv6fP8Dws1LgQ7pfXkxw=",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "193f7255092d6f4294f5cc31737e4243a425588c9f75a5ff92cbeff6c26f77d3"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "0a0d186d11054694ced7f63a4ab35419c4abd98a0ae067441df0c58ff653c3c3c7e13a1e1be9347ed34456f033321e6d287cc8607de2acc26156bb3524195560",
+                "manual_backup": true,
+                "timestamp": 1705876738,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "pluck hand"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "d29c9cda1ffe80335ab1787f29b6a6a6"
+                    },
+                    "ciphertext": "vksV63leTrPCMxZjvM6VK+imseuuToI129UlkVLunmkimxtA7BA26+7YlciC1WdV9qAQlrljgDa9YzkZl9nMCD59UJnXiWbDCkyK",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "7e5ee319d130fa0c624bb2de4420e3c275c80109751d2034f0cf2c4785ea4501"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "62a34e604bd5caf5426c986dad7768a0e91c46fe30f8b986a4117d9c0172afa1522ce92393cef54d3d1ca37b04887941b5a1875e5a9b6013434528e59bdaceef",
+                "manual_backup": true,
+                "timestamp": 1705876738,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "expect soon"
+        },
+        {
+            "backup": {
+                "crypto": {
+                    "cipher": "aes-128-ctr",
+                    "cipherparams": {
+                        "iv": "2ca27d26ca4b3b2a93bed48fe705bfe8"
+                    },
+                    "ciphertext": "aoSZ17UN0Dz3RMDvcb6wYUr4Skc6i72SKJownvpS6v0/lofyvQsXRGFr+EnVvFR1Jl1pEOPC3JPmC8RGtoapaUFcUNFn18lJKqqT+0qlktKuxaTytyQIvhwtQHQkKafNiMg=",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "n": 16384,
+                        "p": 4,
+                        "r": 8,
+                        "salt": "unstoppable"
+                    },
+                    "mac": "28f9f2be45eaaccfb8671242cabbd6a9b1472a546c287dbd0693b113e50ce6cc"
+                },
+                "enabled_wallets": [
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "BTC",
+                        "coin_name": "Bitcoin",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "ethereum|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binance-smart-chain|native"
+                    },
+                    {
+                        "coin_code": "TRX",
+                        "coin_name": "TRON",
+                        "decimals": 6,
+                        "token_query_id": "tron|native"
+                    },
+                    {
+                        "coin_code": "TONCOIN",
+                        "coin_name": "The Open Network",
+                        "decimals": 9,
+                        "token_query_id": "the-open-network|native"
+                    },
+                    {
+                        "coin_code": "MATIC",
+                        "coin_name": "Polygon",
+                        "decimals": 18,
+                        "token_query_id": "polygon-pos|native"
+                    },
+                    {
+                        "coin_code": "AVAX",
+                        "coin_name": "Avalanche",
+                        "decimals": 18,
+                        "token_query_id": "avalanche|native"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type145"
+                    },
+                    {
+                        "coin_code": "BCH",
+                        "coin_name": "Bitcoin Cash",
+                        "decimals": 8,
+                        "token_query_id": "bitcoin-cash|address_type:type0"
+                    },
+                    {
+                        "coin_code": "XEC",
+                        "coin_name": "eCash",
+                        "decimals": 2,
+                        "token_query_id": "ecash|native"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip84"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip44"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip49"
+                    },
+                    {
+                        "coin_code": "LTC",
+                        "coin_name": "Litecoin",
+                        "decimals": 8,
+                        "token_query_id": "litecoin|derived:bip86"
+                    },
+                    {
+                        "coin_code": "XDAI",
+                        "coin_name": "xDAI",
+                        "decimals": 18,
+                        "token_query_id": "gnosis|native"
+                    },
+                    {
+                        "coin_code": "BNB",
+                        "coin_name": "Binance Coin",
+                        "decimals": 18,
+                        "token_query_id": "binancecoin|native"
+                    },
+                    {
+                        "coin_code": "DASH",
+                        "coin_name": "Dash",
+                        "decimals": 8,
+                        "token_query_id": "dash|native"
+                    },
+                    {
+                        "coin_code": "FTM",
+                        "coin_name": "Fantom",
+                        "decimals": 18,
+                        "token_query_id": "fantom|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "arbitrum-one|native"
+                    },
+                    {
+                        "coin_code": "ETH",
+                        "coin_name": "Ethereum",
+                        "decimals": 18,
+                        "token_query_id": "optimistic-ethereum|native"
+                    },
+                    {
+                        "coin_code": "SOL",
+                        "coin_name": "Solana",
+                        "decimals": 9,
+                        "token_query_id": "solana|native"
+                    }
+                ],
+                "file_backup": false,
+                "id": "6e9a0ec6e813ba6f714dcc9b6a391fe0a39f23595e5a9d2fe880cfec5cf2b58a7ca81e72ae562341dfbf76e45ee1239a19b68370a811596b1ff422e1393d4bd8",
+                "manual_backup": true,
+                "timestamp": 1705876739,
+                "type": "mnemonic",
+                "version": 2
+            },
+            "name": "lumber quick"
+        }
+    ]
+}
